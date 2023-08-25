@@ -1,0 +1,2122 @@
+[
+  {
+    "customer": [
+      {
+        "id": "084d8d71-de52-45ee-a7cb-dbb74f184d77",
+        "created_at": "2023-08-24T14:15:26.620Z",
+        "updated_at": "2023-08-25T01:37:37.618Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69157ee4-edeb-4f50-ae05-0a50898e030f",
+        "created_at": "2023-08-24T16:45:37.848Z",
+        "updated_at": "2023-08-25T04:38:18.007Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d49dbe5-4d8e-4560-958a-238e8d17b281",
+        "created_at": "2023-08-24T13:12:40.606Z",
+        "updated_at": "2023-08-24T10:36:19.358Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d6db8e8-01ce-4ce9-bfe3-e9736a0877ea",
+        "created_at": "2023-08-24T17:24:08.539Z",
+        "updated_at": "2023-08-25T05:53:50.662Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39474100-8afd-43d9-a889-1daf3b62a788",
+        "created_at": "2023-08-24T15:05:02.287Z",
+        "updated_at": "2023-08-25T09:01:30.567Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parking_space": [
+      {
+        "id": "9c94aa15-ba49-4621-8703-eba952bbc92d",
+        "location": "Level 1",
+        "availability": true,
+        "price": 35165,
+        "created_at": "2023-08-25T04:26:16.241Z",
+        "updated_at": "2023-08-24T18:27:53.646Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "613a3470-bc63-4f57-be0f-d978508216fe",
+        "location": "B1",
+        "availability": false,
+        "price": 59139,
+        "created_at": "2023-08-25T01:31:30.703Z",
+        "updated_at": "2023-08-25T07:22:31.287Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0cc2031d-06bc-423e-aa4d-5e414aa6e407",
+        "location": "P2",
+        "availability": true,
+        "price": 72606,
+        "created_at": "2023-08-24T22:31:11.409Z",
+        "updated_at": "2023-08-25T06:42:10.595Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "39e33d10-6f85-4682-8123-4e24fc541688",
+        "location": "Roof Top",
+        "availability": false,
+        "price": 48508,
+        "created_at": "2023-08-24T17:48:55.211Z",
+        "updated_at": "2023-08-24T13:49:27.283Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "396a09b3-62ae-4d31-86a1-32095f0ad134",
+        "location": "Visitor Area",
+        "availability": false,
+        "price": 20149,
+        "created_at": "2023-08-25T08:55:39.090Z",
+        "updated_at": "2023-08-24T14:04:27.589Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "business_owner": [
+      {
+        "id": "6a995e62-7fd4-4b06-a021-428d23c9dc5b",
+        "created_at": "2023-08-24T15:14:00.560Z",
+        "updated_at": "2023-08-24T16:31:35.341Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e15693c-183b-4f17-9d53-8d521dea2add",
+        "created_at": "2023-08-24T17:29:19.077Z",
+        "updated_at": "2023-08-24T10:05:54.633Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "165631ec-b23a-4312-aeee-17ef4a3daeb9",
+        "created_at": "2023-08-24T19:45:02.124Z",
+        "updated_at": "2023-08-24T16:31:37.682Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "faeed874-3958-4445-b5ff-c380e0a8a677",
+        "created_at": "2023-08-24T23:21:53.761Z",
+        "updated_at": "2023-08-25T05:58:59.426Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83383775-1266-4544-92f3-149834d7e2a0",
+        "created_at": "2023-08-25T05:16:59.612Z",
+        "updated_at": "2023-08-24T11:21:19.989Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "b88f25f2-78c5-43ae-bb31-9d068c445fea",
+        "start_time": "2023-08-24T16:54:59.781Z",
+        "end_time": "2023-08-24T12:46:33.272Z",
+        "created_at": "2023-08-25T02:57:17.297Z",
+        "updated_at": "2023-08-25T08:22:45.224Z",
+        "parking_space_id": "9c94aa15-ba49-4621-8703-eba952bbc92d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62b9fd9a-839a-4d42-b96f-1afc03bd6ab0",
+        "start_time": "2023-08-24T09:21:05.965Z",
+        "end_time": "2023-08-25T02:45:34.911Z",
+        "created_at": "2023-08-24T15:57:36.405Z",
+        "updated_at": "2023-08-24T15:12:10.258Z",
+        "parking_space_id": "613a3470-bc63-4f57-be0f-d978508216fe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c522345e-681e-447a-9f6b-3ee68f85074d",
+        "start_time": "2023-08-25T03:15:26.583Z",
+        "end_time": "2023-08-25T01:18:36.365Z",
+        "created_at": "2023-08-24T17:34:00.435Z",
+        "updated_at": "2023-08-24T21:41:28.647Z",
+        "parking_space_id": "396a09b3-62ae-4d31-86a1-32095f0ad134",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76ef681e-9f0f-4bc0-9b09-26d1f1dacb63",
+        "start_time": "2023-08-25T05:22:13.557Z",
+        "end_time": "2023-08-25T05:31:20.746Z",
+        "created_at": "2023-08-24T09:24:50.975Z",
+        "updated_at": "2023-08-25T06:48:34.228Z",
+        "parking_space_id": "613a3470-bc63-4f57-be0f-d978508216fe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e2940b1f-8408-4ba7-b185-0aad52100d53",
+        "start_time": "2023-08-25T00:07:29.871Z",
+        "end_time": "2023-08-24T15:43:03.811Z",
+        "created_at": "2023-08-24T10:04:01.236Z",
+        "updated_at": "2023-08-24T17:32:50.127Z",
+        "parking_space_id": "0cc2031d-06bc-423e-aa4d-5e414aa6e407",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "23020c7b-3d9a-4665-a797-59a680a6aab0",
+        "email": "Tre99@yahoo.com",
+        "firstName": "Nedra",
+        "lastName": "Bernhard",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12974820",
+        "tenantId": null
+      },
+      {
+        "reference": "14a532cd-3953-419a-b82e-a11df7b93666",
+        "email": "Allan.Altenwerth@hotmail.com",
+        "firstName": "Cristopher",
+        "lastName": "Harris",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48510228",
+        "tenantId": null
+      },
+      {
+        "reference": "2b65ff0a-e928-4e8b-b0b0-c31078e9bbbe",
+        "email": "Yoshiko.Harris-Lesch@hotmail.com",
+        "firstName": "Taya",
+        "lastName": "Cremin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1001.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8b1f8ada-c118-45b8-a029-d9b7db2a8d4c",
+        "email": "Santiago.Dibbert92@hotmail.com",
+        "firstName": "Giovanni",
+        "lastName": "Rath",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/71.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "024a038b-7b18-4b40-9ab1-a93ebebd4994",
+        "email": "Donny61@hotmail.com",
+        "firstName": "Avis",
+        "lastName": "Ledner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/626.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "357fd473-964a-4d17-a0ed-7c1211bd2823",
+        "created_at": "2023-08-24T18:24:48.727Z",
+        "updated_at": "2023-08-25T00:17:30.287Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a392d97-9297-44cf-b34c-eb10387455a6",
+        "created_at": "2023-08-24T16:45:34.171Z",
+        "updated_at": "2023-08-24T12:36:32.363Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c7db493-3470-40bc-b08b-356be9356754",
+        "created_at": "2023-08-24T13:25:31.084Z",
+        "updated_at": "2023-08-24T22:05:32.326Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f282674-9279-4ec0-8a26-facadde33d5f",
+        "created_at": "2023-08-25T08:31:29.098Z",
+        "updated_at": "2023-08-25T07:05:50.414Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a65fe411-a871-4bea-8ba1-d9af1edf3a6e",
+        "created_at": "2023-08-24T12:36:30.916Z",
+        "updated_at": "2023-08-25T08:14:09.203Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parking_space": [
+      {
+        "id": "dbd0c46e-3615-47aa-9753-3b67c7899a23",
+        "location": "Parking Lot A",
+        "availability": true,
+        "price": 75546,
+        "created_at": "2023-08-25T07:43:39.168Z",
+        "updated_at": "2023-08-24T17:23:16.353Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "35a0645c-814c-4326-b363-d822c70d2d64",
+        "location": "Underground Garage",
+        "availability": true,
+        "price": 21908,
+        "created_at": "2023-08-24T19:42:04.762Z",
+        "updated_at": "2023-08-25T06:29:25.395Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0dfca3fc-a83a-4e91-9a6d-4ef0df170b10",
+        "location": "Street Parking",
+        "availability": false,
+        "price": 50506,
+        "created_at": "2023-08-25T04:21:48.601Z",
+        "updated_at": "2023-08-24T22:50:03.531Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6e8dde7e-0ccb-48a9-81de-f3350c1fb814",
+        "location": "Parking Structure B",
+        "availability": false,
+        "price": 46264,
+        "created_at": "2023-08-24T23:43:29.324Z",
+        "updated_at": "2023-08-25T01:21:05.272Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f7e34d0a-4ab0-4f6e-92a8-8909e1d465c0",
+        "location": "Open Field Parking",
+        "availability": false,
+        "price": 79386,
+        "created_at": "2023-08-25T03:53:05.737Z",
+        "updated_at": "2023-08-24T21:07:11.915Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "business_owner": [
+      {
+        "id": "1c57419b-96dd-48c4-a710-401f705a8b8c",
+        "created_at": "2023-08-25T02:59:50.375Z",
+        "updated_at": "2023-08-24T22:09:24.132Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ba481bf-d5be-4ab3-a024-caac2bb17932",
+        "created_at": "2023-08-24T19:23:41.283Z",
+        "updated_at": "2023-08-25T02:14:42.038Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04d05b6d-009a-4ae4-87b8-8202f747e362",
+        "created_at": "2023-08-25T02:08:08.495Z",
+        "updated_at": "2023-08-24T21:58:28.868Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "123ee244-f79e-448d-89dd-70d6e04ec788",
+        "created_at": "2023-08-25T02:26:43.886Z",
+        "updated_at": "2023-08-24T22:13:24.126Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cdbbd433-64e4-4255-8a61-dd541f05c2a1",
+        "created_at": "2023-08-25T09:01:20.854Z",
+        "updated_at": "2023-08-24T13:07:32.101Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "dca6eee3-25f2-49d0-9175-5e7fa92d24f5",
+        "start_time": "2023-08-24T10:11:33.412Z",
+        "end_time": "2023-08-25T03:40:33.369Z",
+        "created_at": "2023-08-24T12:34:13.738Z",
+        "updated_at": "2023-08-24T22:41:10.209Z",
+        "parking_space_id": "dbd0c46e-3615-47aa-9753-3b67c7899a23",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1abd97a6-cee9-47ca-844d-f7905aae2949",
+        "start_time": "2023-08-25T01:10:35.587Z",
+        "end_time": "2023-08-24T22:50:01.706Z",
+        "created_at": "2023-08-25T05:33:04.148Z",
+        "updated_at": "2023-08-25T05:57:10.188Z",
+        "parking_space_id": "dbd0c46e-3615-47aa-9753-3b67c7899a23",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d0502aa-2b28-45c9-b69e-b606dd14ba07",
+        "start_time": "2023-08-24T23:45:46.539Z",
+        "end_time": "2023-08-24T21:35:32.601Z",
+        "created_at": "2023-08-25T03:45:56.413Z",
+        "updated_at": "2023-08-24T11:37:30.446Z",
+        "parking_space_id": "0dfca3fc-a83a-4e91-9a6d-4ef0df170b10",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9bfcea66-d9fb-49af-a881-0e754a48dbf5",
+        "start_time": "2023-08-25T02:14:42.064Z",
+        "end_time": "2023-08-24T10:17:42.406Z",
+        "created_at": "2023-08-25T08:20:53.863Z",
+        "updated_at": "2023-08-24T12:06:25.232Z",
+        "parking_space_id": "dbd0c46e-3615-47aa-9753-3b67c7899a23",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92b292ea-dc05-4fc2-a9e6-8c6df6ecc203",
+        "start_time": "2023-08-25T06:37:07.600Z",
+        "end_time": "2023-08-25T01:42:32.061Z",
+        "created_at": "2023-08-25T01:33:54.404Z",
+        "updated_at": "2023-08-24T14:24:22.900Z",
+        "parking_space_id": "35a0645c-814c-4326-b363-d822c70d2d64",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "133baa1a-3596-453a-be42-b3daf9f9f1a9",
+        "email": "Lonie.Grimes@yahoo.com",
+        "firstName": "Brock",
+        "lastName": "Osinski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/91.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4503f769-7c2a-4e55-9a16-79bbe4b17088",
+        "email": "Freeda82@hotmail.com",
+        "firstName": "Thalia",
+        "lastName": "Donnelly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/217.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "756296e8-70f3-4e6f-9e7a-2512d2fb0667",
+        "email": "Polly26@gmail.com",
+        "firstName": "Kaylah",
+        "lastName": "Effertz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23246617",
+        "tenantId": null
+      },
+      {
+        "reference": "fb5f5c0b-bb3c-4999-a747-e06c8cd15baf",
+        "email": "Annamae38@yahoo.com",
+        "firstName": "Jewell",
+        "lastName": "Stamm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1198.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fb569800-4fdc-495f-a582-cbbf95bd7717",
+        "email": "Whitney_Carroll7@hotmail.com",
+        "firstName": "Rita",
+        "lastName": "Marquardt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20333230",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "e571e13e-584a-4f48-8d9c-53f015c6bd15",
+        "created_at": "2023-08-24T22:59:38.629Z",
+        "updated_at": "2023-08-25T02:15:58.342Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d26b6ed-6c97-4a92-8178-f376d38f76b9",
+        "created_at": "2023-08-25T03:17:58.566Z",
+        "updated_at": "2023-08-24T23:49:55.822Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03e56414-37c2-45b2-8518-b29d699c6db1",
+        "created_at": "2023-08-25T06:03:15.373Z",
+        "updated_at": "2023-08-24T22:28:50.932Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "718cc631-9033-48ea-8884-6e1b10d1f21a",
+        "created_at": "2023-08-24T16:23:27.214Z",
+        "updated_at": "2023-08-25T06:54:53.557Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ccc76a61-527d-46f9-8159-3d74332d697c",
+        "created_at": "2023-08-24T09:47:09.813Z",
+        "updated_at": "2023-08-24T17:17:20.650Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parking_space": [
+      {
+        "id": "2ebf3fd7-f34b-4a5d-8e67-e9b9ae88cf52",
+        "location": "Street A",
+        "availability": false,
+        "price": 24961,
+        "created_at": "2023-08-25T03:38:31.169Z",
+        "updated_at": "2023-08-24T20:47:57.573Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "aae7d8a0-f178-4218-a0ba-02aaf9774fab",
+        "location": "Parking Lot B",
+        "availability": true,
+        "price": 24062,
+        "created_at": "2023-08-25T07:35:50.897Z",
+        "updated_at": "2023-08-24T10:43:26.446Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "475ed517-9d2f-4d4e-9984-f4bedf3aa4c9",
+        "location": "Garage C",
+        "availability": true,
+        "price": 36702,
+        "created_at": "2023-08-24T12:54:53.693Z",
+        "updated_at": "2023-08-24T16:19:00.393Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c830df6a-7968-452e-b3d8-d1d63d8b309d",
+        "location": "Underground Parking D",
+        "availability": true,
+        "price": 60835,
+        "created_at": "2023-08-24T13:39:07.292Z",
+        "updated_at": "2023-08-25T03:04:31.472Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e7b1a11a-a1c0-441b-9007-2808603f62f1",
+        "location": "Open Field E",
+        "availability": false,
+        "price": 7014,
+        "created_at": "2023-08-24T16:42:57.963Z",
+        "updated_at": "2023-08-24T09:27:37.926Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "business_owner": [
+      {
+        "id": "c5edf9af-31ab-48c9-912d-704120658dce",
+        "created_at": "2023-08-25T01:08:22.594Z",
+        "updated_at": "2023-08-24T23:48:02.381Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd1746ed-7df0-4c11-aafd-ba63f7bcdc3d",
+        "created_at": "2023-08-24T12:20:18.428Z",
+        "updated_at": "2023-08-25T05:40:47.689Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0780223-7996-4099-b6b8-ed493ff4f2bb",
+        "created_at": "2023-08-24T16:31:09.399Z",
+        "updated_at": "2023-08-24T18:27:57.940Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "838abf91-802b-47d0-845d-6f9363c8b119",
+        "created_at": "2023-08-25T05:03:47.212Z",
+        "updated_at": "2023-08-24T20:32:35.293Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0681eee7-8882-4fa4-bc29-2285137809ae",
+        "created_at": "2023-08-25T08:30:47.822Z",
+        "updated_at": "2023-08-25T01:16:19.596Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "eea73779-88dc-4bd8-90a2-2c86aac24ec5",
+        "start_time": "2023-08-24T19:15:44.179Z",
+        "end_time": "2023-08-24T18:53:03.234Z",
+        "created_at": "2023-08-24T11:47:02.861Z",
+        "updated_at": "2023-08-24T23:39:46.782Z",
+        "parking_space_id": "475ed517-9d2f-4d4e-9984-f4bedf3aa4c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "196dbca7-671c-4a75-a4f1-c09262beda00",
+        "start_time": "2023-08-25T05:08:15.412Z",
+        "end_time": "2023-08-24T10:33:00.454Z",
+        "created_at": "2023-08-24T15:39:32.949Z",
+        "updated_at": "2023-08-24T16:36:18.785Z",
+        "parking_space_id": "475ed517-9d2f-4d4e-9984-f4bedf3aa4c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0320afdd-91e7-4078-b1d8-130a99e62208",
+        "start_time": "2023-08-24T09:56:12.726Z",
+        "end_time": "2023-08-25T08:55:30.207Z",
+        "created_at": "2023-08-24T12:26:59.689Z",
+        "updated_at": "2023-08-25T07:12:41.617Z",
+        "parking_space_id": "aae7d8a0-f178-4218-a0ba-02aaf9774fab",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1fd48bd3-9443-4d8d-9fd6-1de73d92b5d5",
+        "start_time": "2023-08-24T23:43:50.303Z",
+        "end_time": "2023-08-24T12:49:40.688Z",
+        "created_at": "2023-08-24T22:48:42.633Z",
+        "updated_at": "2023-08-24T20:32:24.470Z",
+        "parking_space_id": "c830df6a-7968-452e-b3d8-d1d63d8b309d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ffcb16ff-5f84-4d0f-b99c-932b4652c113",
+        "start_time": "2023-08-24T17:15:01.766Z",
+        "end_time": "2023-08-24T11:07:25.670Z",
+        "created_at": "2023-08-24T21:22:19.000Z",
+        "updated_at": "2023-08-25T02:49:26.411Z",
+        "parking_space_id": "475ed517-9d2f-4d4e-9984-f4bedf3aa4c9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a5202952-7fc0-4863-8d4f-819d148c18d1",
+        "email": "Emely.Kilback@yahoo.com",
+        "firstName": "Arnaldo",
+        "lastName": "Corkery",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46263371",
+        "tenantId": null
+      },
+      {
+        "reference": "9027eddb-4b2a-45cb-af55-7d804abc5625",
+        "email": "Ally35@hotmail.com",
+        "firstName": "Tate",
+        "lastName": "Sanford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64049201",
+        "tenantId": null
+      },
+      {
+        "reference": "483ce9d7-9a31-42d2-bca1-5ed33a041a65",
+        "email": "Johnnie.Greenfelder74@hotmail.com",
+        "firstName": "Trace",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/848.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4a8b11d1-673e-484d-aaa8-11bf290408c5",
+        "email": "Sherwood.Oberbrunner14@gmail.com",
+        "firstName": "Ella",
+        "lastName": "Bayer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/279.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f4ab1baa-646c-46d4-9d75-3d8799739edb",
+        "email": "Audie.Lemke79@yahoo.com",
+        "firstName": "Carissa",
+        "lastName": "Keebler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60034875",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "fcfc43c8-c9ee-4edf-b4a2-079752830d5c",
+        "created_at": "2023-08-24T17:13:32.672Z",
+        "updated_at": "2023-08-24T21:05:48.876Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e004337b-1ffe-45be-af1f-e4bd38a29146",
+        "created_at": "2023-08-25T04:32:38.341Z",
+        "updated_at": "2023-08-25T06:09:13.716Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc5c7c62-c557-4851-b7db-b6e64e1c02aa",
+        "created_at": "2023-08-25T03:36:00.036Z",
+        "updated_at": "2023-08-24T17:57:41.951Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e132fdc-ac36-4c18-8fa2-1a3bf53d9a4a",
+        "created_at": "2023-08-24T17:28:57.326Z",
+        "updated_at": "2023-08-24T16:39:21.255Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de8de872-b0cd-4a79-9e28-ae7df6c6c97a",
+        "created_at": "2023-08-24T19:55:49.063Z",
+        "updated_at": "2023-08-24T12:03:31.018Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parking_space": [
+      {
+        "id": "5f28e855-bcdc-40a4-8f5e-e741e2998e0f",
+        "location": "Parking Lot A",
+        "availability": false,
+        "price": 12153,
+        "created_at": "2023-08-24T12:19:33.476Z",
+        "updated_at": "2023-08-24T18:43:01.141Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b2b4cea5-ad88-415f-9f17-567f38654c84",
+        "location": "Underground Garage B",
+        "availability": false,
+        "price": 1126,
+        "created_at": "2023-08-25T04:20:57.516Z",
+        "updated_at": "2023-08-25T03:33:52.323Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b0104600-054b-4889-9adc-d12d1593f25e",
+        "location": "Street Parking C",
+        "availability": false,
+        "price": 27892,
+        "created_at": "2023-08-24T10:33:40.229Z",
+        "updated_at": "2023-08-25T08:34:02.155Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8422ae04-2442-4322-862e-d582a37352ee",
+        "location": "Multi-Level Car Park D",
+        "availability": true,
+        "price": 37466,
+        "created_at": "2023-08-24T16:29:37.331Z",
+        "updated_at": "2023-08-24T18:09:15.212Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e18bc417-b079-4d27-b346-602b7790de91",
+        "location": "Open Parking Area E",
+        "availability": true,
+        "price": 76244,
+        "created_at": "2023-08-25T01:20:00.594Z",
+        "updated_at": "2023-08-24T18:36:36.311Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "business_owner": [
+      {
+        "id": "c6813233-8ae6-4165-8f5c-19e6d2a89fd9",
+        "created_at": "2023-08-25T00:49:38.069Z",
+        "updated_at": "2023-08-24T11:23:25.173Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd768f72-2876-43ee-9691-0d5b1a98455a",
+        "created_at": "2023-08-24T21:44:59.651Z",
+        "updated_at": "2023-08-25T03:38:18.665Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb8d3ef5-45b3-4fa8-b5be-860285787b5d",
+        "created_at": "2023-08-24T19:49:01.510Z",
+        "updated_at": "2023-08-24T20:01:15.331Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04615edb-9fda-488a-a492-035df5de96c1",
+        "created_at": "2023-08-24T19:25:38.832Z",
+        "updated_at": "2023-08-24T20:26:35.288Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67a011e6-b859-4bcd-90b7-a87db8f9f4fc",
+        "created_at": "2023-08-24T15:31:36.281Z",
+        "updated_at": "2023-08-25T00:19:16.944Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "8d5d48e5-99cb-4ba7-95c5-0cc035ea7779",
+        "start_time": "2023-08-25T08:43:26.149Z",
+        "end_time": "2023-08-24T10:43:42.868Z",
+        "created_at": "2023-08-24T19:20:06.384Z",
+        "updated_at": "2023-08-24T23:57:36.341Z",
+        "parking_space_id": "b2b4cea5-ad88-415f-9f17-567f38654c84",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a488b52f-5134-45ee-9594-51634cb39eaf",
+        "start_time": "2023-08-25T07:49:37.210Z",
+        "end_time": "2023-08-25T00:56:33.834Z",
+        "created_at": "2023-08-24T12:49:23.868Z",
+        "updated_at": "2023-08-24T15:50:56.327Z",
+        "parking_space_id": "b2b4cea5-ad88-415f-9f17-567f38654c84",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a3d4523-2dc8-4be1-94ec-8c1d8dd2e090",
+        "start_time": "2023-08-24T13:17:57.052Z",
+        "end_time": "2023-08-24T19:25:41.069Z",
+        "created_at": "2023-08-24T17:40:02.880Z",
+        "updated_at": "2023-08-25T06:27:47.868Z",
+        "parking_space_id": "5f28e855-bcdc-40a4-8f5e-e741e2998e0f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f26d742f-0279-4bb7-b929-920489bf87a6",
+        "start_time": "2023-08-25T04:40:34.240Z",
+        "end_time": "2023-08-24T20:05:59.202Z",
+        "created_at": "2023-08-24T22:51:47.975Z",
+        "updated_at": "2023-08-24T09:58:57.813Z",
+        "parking_space_id": "5f28e855-bcdc-40a4-8f5e-e741e2998e0f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c52e5473-4e4a-489c-84c9-ea03072a9cfc",
+        "start_time": "2023-08-25T06:21:32.773Z",
+        "end_time": "2023-08-25T07:52:13.799Z",
+        "created_at": "2023-08-25T02:17:56.180Z",
+        "updated_at": "2023-08-24T22:47:36.983Z",
+        "parking_space_id": "b2b4cea5-ad88-415f-9f17-567f38654c84",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b0f2804d-cc9b-4369-a84d-62e02cc90013",
+        "email": "April64@gmail.com",
+        "firstName": "Sherwood",
+        "lastName": "Waters",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33124779",
+        "tenantId": null
+      },
+      {
+        "reference": "dc807ec0-f154-46bb-9fe1-24af71cba168",
+        "email": "Aimee_Bernier@hotmail.com",
+        "firstName": "Stanford",
+        "lastName": "Parker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72988312",
+        "tenantId": null
+      },
+      {
+        "reference": "5b400ded-b402-4e63-ae2f-2a43c407a078",
+        "email": "Lizzie_Wyman7@yahoo.com",
+        "firstName": "Isaias",
+        "lastName": "Heathcote",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/843.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5491c837-400d-4435-99ce-2d176f873df0",
+        "email": "Gabriel_Larson22@gmail.com",
+        "firstName": "Markus",
+        "lastName": "Rippin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40625455",
+        "tenantId": null
+      },
+      {
+        "reference": "cfdc79b5-0f11-4f1a-90cb-3ec90ea29763",
+        "email": "Ivy31@gmail.com",
+        "firstName": "Lorenza",
+        "lastName": "Block",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/377.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "29bbb69e-4df6-4df1-95a3-c8ad81b99c57",
+        "created_at": "2023-08-24T17:22:20.229Z",
+        "updated_at": "2023-08-24T16:21:32.539Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0521b58-4a17-40d6-9aee-157f0a9a9290",
+        "created_at": "2023-08-24T19:26:15.774Z",
+        "updated_at": "2023-08-25T01:52:41.576Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6db88708-d819-46e7-bb92-f4cfc6d8de2a",
+        "created_at": "2023-08-25T02:44:08.801Z",
+        "updated_at": "2023-08-25T09:10:25.296Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7135093d-9a47-4d40-aab4-4940f7cca9b5",
+        "created_at": "2023-08-24T11:25:26.108Z",
+        "updated_at": "2023-08-25T00:03:10.387Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0460fc9c-2c06-4e71-8660-cae245d1f82d",
+        "created_at": "2023-08-25T03:51:10.110Z",
+        "updated_at": "2023-08-24T13:51:27.291Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parking_space": [
+      {
+        "id": "9539d5be-d0d6-475e-85bf-675a7c694834",
+        "location": "Building A, Level 1",
+        "availability": false,
+        "price": 27646,
+        "created_at": "2023-08-25T06:14:07.052Z",
+        "updated_at": "2023-08-24T15:52:05.164Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "517ecefb-aeeb-4835-9780-f6ab96d95aa5",
+        "location": "Garage B, Level 3",
+        "availability": false,
+        "price": 40503,
+        "created_at": "2023-08-24T09:29:44.305Z",
+        "updated_at": "2023-08-24T22:53:32.341Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "298e642b-1522-46b2-a555-c3fc958de752",
+        "location": "Parking Lot C, Level 2",
+        "availability": false,
+        "price": 6962,
+        "created_at": "2023-08-24T20:22:56.525Z",
+        "updated_at": "2023-08-24T12:22:25.051Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c713ce45-fee3-40aa-b87d-6908de6a0dc6",
+        "location": "Outdoor Parking D, Level 4",
+        "availability": false,
+        "price": 26179,
+        "created_at": "2023-08-24T09:31:14.162Z",
+        "updated_at": "2023-08-24T18:07:12.890Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fbd63a71-3140-4463-a538-045b928abd33",
+        "location": "Underground Garage E, Level 5",
+        "availability": false,
+        "price": 23259,
+        "created_at": "2023-08-25T07:04:17.369Z",
+        "updated_at": "2023-08-25T02:07:27.004Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "business_owner": [
+      {
+        "id": "a43fba97-0598-4e30-99b5-ea24cb51ddfd",
+        "created_at": "2023-08-25T07:48:55.423Z",
+        "updated_at": "2023-08-25T09:03:48.801Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5256d629-698c-4f76-8664-049a126dcf8d",
+        "created_at": "2023-08-25T07:17:34.193Z",
+        "updated_at": "2023-08-24T09:33:43.714Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6ed00c4-f911-4039-8229-8d8e3548b861",
+        "created_at": "2023-08-24T12:03:59.323Z",
+        "updated_at": "2023-08-25T04:17:19.654Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3753db7f-2609-42b4-b4c0-66dcae018740",
+        "created_at": "2023-08-24T17:45:07.704Z",
+        "updated_at": "2023-08-24T12:19:51.523Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "937e4c09-341a-40d8-b63d-ab759b1d5ac1",
+        "created_at": "2023-08-24T13:51:49.357Z",
+        "updated_at": "2023-08-24T16:47:59.840Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "26cb637c-3941-451c-8874-b7d91ebbb93a",
+        "start_time": "2023-08-24T13:50:05.463Z",
+        "end_time": "2023-08-24T21:37:42.171Z",
+        "created_at": "2023-08-25T02:01:18.602Z",
+        "updated_at": "2023-08-24T14:00:56.313Z",
+        "parking_space_id": "fbd63a71-3140-4463-a538-045b928abd33",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20b7df8f-6bed-4ffc-a15d-c71f14cbdd02",
+        "start_time": "2023-08-24T09:28:47.732Z",
+        "end_time": "2023-08-24T12:09:43.016Z",
+        "created_at": "2023-08-24T09:46:32.888Z",
+        "updated_at": "2023-08-24T22:51:59.794Z",
+        "parking_space_id": "c713ce45-fee3-40aa-b87d-6908de6a0dc6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "289a15e9-171d-41e0-966d-e58bc805f4c5",
+        "start_time": "2023-08-25T08:06:51.133Z",
+        "end_time": "2023-08-24T12:00:37.065Z",
+        "created_at": "2023-08-25T01:27:51.085Z",
+        "updated_at": "2023-08-24T09:20:04.721Z",
+        "parking_space_id": "fbd63a71-3140-4463-a538-045b928abd33",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "042341b4-291d-4613-a8dd-df7887ca6af0",
+        "start_time": "2023-08-24T14:30:15.571Z",
+        "end_time": "2023-08-24T23:57:19.888Z",
+        "created_at": "2023-08-25T09:08:07.488Z",
+        "updated_at": "2023-08-25T06:59:27.997Z",
+        "parking_space_id": "298e642b-1522-46b2-a555-c3fc958de752",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6cc0e4ac-6ce2-481d-ad97-68b05dbb7d03",
+        "start_time": "2023-08-24T23:23:59.706Z",
+        "end_time": "2023-08-24T18:17:43.887Z",
+        "created_at": "2023-08-24T12:39:39.265Z",
+        "updated_at": "2023-08-24T13:10:54.546Z",
+        "parking_space_id": "9539d5be-d0d6-475e-85bf-675a7c694834",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "95ea2935-9693-4ac8-a5fd-0700fd9796b0",
+        "email": "Jaren.Larkin@hotmail.com",
+        "firstName": "Xavier",
+        "lastName": "Beier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32236768",
+        "tenantId": null
+      },
+      {
+        "reference": "1c850456-c449-4650-86f3-2b7e394ad36c",
+        "email": "Sean97@hotmail.com",
+        "firstName": "Colt",
+        "lastName": "Fay",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31236586",
+        "tenantId": null
+      },
+      {
+        "reference": "541e1226-e0a0-43e5-aff3-f27626389563",
+        "email": "Damian94@gmail.com",
+        "firstName": "Pascale",
+        "lastName": "Renner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/623.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2f6eab7c-4493-4efb-8d8c-068b7fc7e794",
+        "email": "Velva94@yahoo.com",
+        "firstName": "Macey",
+        "lastName": "Vandervort",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73436801",
+        "tenantId": null
+      },
+      {
+        "reference": "c7ce6b7d-ebc7-46d5-ba50-c961f6500286",
+        "email": "Christy.Hessel58@yahoo.com",
+        "firstName": "Liza",
+        "lastName": "Johnston",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/185.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "1fdd88a4-225e-49c4-8bd5-745f23113ec4",
+        "created_at": "2023-08-25T05:57:02.952Z",
+        "updated_at": "2023-08-25T08:24:10.378Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7856342b-39b4-46a4-9143-a280c8d76094",
+        "created_at": "2023-08-24T14:05:10.358Z",
+        "updated_at": "2023-08-25T01:07:22.514Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33a63ec3-2e46-4d0d-88fe-573ec6c5eee6",
+        "created_at": "2023-08-24T13:11:49.669Z",
+        "updated_at": "2023-08-25T04:19:07.142Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4950187-4c64-4ccf-a321-3ebe5265653e",
+        "created_at": "2023-08-25T02:02:52.091Z",
+        "updated_at": "2023-08-25T05:35:31.008Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "085b6954-8b93-4078-af33-cce730d76418",
+        "created_at": "2023-08-25T05:40:57.964Z",
+        "updated_at": "2023-08-24T23:45:44.175Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parking_space": [
+      {
+        "id": "10fef9b4-69f1-4472-a4a7-c1173ddb801d",
+        "location": "Parking Lot A",
+        "availability": true,
+        "price": 1058,
+        "created_at": "2023-08-24T16:07:18.751Z",
+        "updated_at": "2023-08-25T01:13:25.111Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b212625f-66f7-4373-af1f-33b90ff40844",
+        "location": "Underground Garage B",
+        "availability": false,
+        "price": 30921,
+        "created_at": "2023-08-24T20:25:44.825Z",
+        "updated_at": "2023-08-24T14:35:14.169Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a0f234ec-7098-4b80-9804-ab94c9b806b3",
+        "location": "Open Field C",
+        "availability": true,
+        "price": 63757,
+        "created_at": "2023-08-25T06:11:51.170Z",
+        "updated_at": "2023-08-24T20:03:16.040Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "286d1bc0-04fb-4487-8e5c-e9418fc2d42a",
+        "location": "Multi-level Parking D",
+        "availability": false,
+        "price": 1569,
+        "created_at": "2023-08-24T10:51:24.766Z",
+        "updated_at": "2023-08-25T01:42:33.543Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7cc4144f-7edb-42b2-9896-2515d8b77044",
+        "location": "Reserved Parking E",
+        "availability": false,
+        "price": 58453,
+        "created_at": "2023-08-24T23:31:03.317Z",
+        "updated_at": "2023-08-24T21:47:25.069Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "business_owner": [
+      {
+        "id": "9ec94961-ae64-4e59-92cf-9dbda9c39c21",
+        "created_at": "2023-08-24T11:28:15.129Z",
+        "updated_at": "2023-08-24T23:25:25.092Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f4d691e-a2f6-4bc1-b763-65633da0fb81",
+        "created_at": "2023-08-25T03:17:23.965Z",
+        "updated_at": "2023-08-25T04:07:45.402Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3a88d02-12c9-42c3-aa21-197705a99bba",
+        "created_at": "2023-08-25T05:40:12.261Z",
+        "updated_at": "2023-08-24T17:10:08.596Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c5661e0f-5f00-4750-b7e8-f4ce9c163a7e",
+        "created_at": "2023-08-24T12:45:00.033Z",
+        "updated_at": "2023-08-24T23:53:36.391Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3518a86-24d7-4f01-8f39-8858c2f7c599",
+        "created_at": "2023-08-25T07:55:53.513Z",
+        "updated_at": "2023-08-25T05:43:00.609Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "38c7d7e2-3cfd-41e7-9f6c-a84a6b37d925",
+        "start_time": "2023-08-24T20:47:31.226Z",
+        "end_time": "2023-08-25T06:36:57.726Z",
+        "created_at": "2023-08-24T10:09:24.966Z",
+        "updated_at": "2023-08-24T21:32:47.150Z",
+        "parking_space_id": "7cc4144f-7edb-42b2-9896-2515d8b77044",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77802d30-01f2-46c8-bc70-28b4b2dc2a0e",
+        "start_time": "2023-08-24T15:42:03.237Z",
+        "end_time": "2023-08-24T21:42:36.867Z",
+        "created_at": "2023-08-24T11:09:13.718Z",
+        "updated_at": "2023-08-24T13:22:00.408Z",
+        "parking_space_id": "7cc4144f-7edb-42b2-9896-2515d8b77044",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a42e6086-2cbf-4fee-ac7e-38719244f200",
+        "start_time": "2023-08-24T10:34:46.145Z",
+        "end_time": "2023-08-25T07:03:27.806Z",
+        "created_at": "2023-08-24T17:06:10.142Z",
+        "updated_at": "2023-08-24T22:20:31.782Z",
+        "parking_space_id": "b212625f-66f7-4373-af1f-33b90ff40844",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf80ea6f-92e6-4c50-b887-2f6327260b85",
+        "start_time": "2023-08-25T00:08:37.293Z",
+        "end_time": "2023-08-24T19:47:22.096Z",
+        "created_at": "2023-08-24T23:59:06.506Z",
+        "updated_at": "2023-08-24T20:54:22.384Z",
+        "parking_space_id": "b212625f-66f7-4373-af1f-33b90ff40844",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eab707eb-ba00-42b2-9f5c-fb976261ad40",
+        "start_time": "2023-08-24T15:44:12.817Z",
+        "end_time": "2023-08-25T05:46:35.509Z",
+        "created_at": "2023-08-24T10:31:55.232Z",
+        "updated_at": "2023-08-24T18:50:34.788Z",
+        "parking_space_id": "b212625f-66f7-4373-af1f-33b90ff40844",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "cca154df-7a3b-4305-8054-9116b79fbb45",
+        "email": "Edwina.Parisian@yahoo.com",
+        "firstName": "Annie",
+        "lastName": "Herman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59625710",
+        "tenantId": null
+      },
+      {
+        "reference": "0ef6584a-f62f-4331-ae75-2e517c8866b5",
+        "email": "Dino.Schumm@yahoo.com",
+        "firstName": "Noble",
+        "lastName": "D'Amore",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/235.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4632955d-0de3-4f68-a8a2-60dd9503459d",
+        "email": "Linnie_Jerde71@gmail.com",
+        "firstName": "Annabell",
+        "lastName": "Collier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6681117",
+        "tenantId": null
+      },
+      {
+        "reference": "c4ac3be8-a278-4c24-9807-e248c16e7c96",
+        "email": "Erica62@gmail.com",
+        "firstName": "Madilyn",
+        "lastName": "Fritsch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73059966",
+        "tenantId": null
+      },
+      {
+        "reference": "c1b48651-4870-4306-85b6-3c1ba24cb9d2",
+        "email": "Graciela21@yahoo.com",
+        "firstName": "Ahmed",
+        "lastName": "Rosenbaum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45403256",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "50f233a5-6bcc-4b91-8512-11063dc483c3",
+        "created_at": "2023-08-24T16:30:17.275Z",
+        "updated_at": "2023-08-24T09:50:11.315Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e50d75f8-8740-42f7-8419-7a5064c19e05",
+        "created_at": "2023-08-24T17:32:05.905Z",
+        "updated_at": "2023-08-25T05:09:43.153Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7f8121c-af5c-4828-889c-d4b162dd5189",
+        "created_at": "2023-08-24T17:32:33.113Z",
+        "updated_at": "2023-08-24T21:56:20.126Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cfd32d35-2f41-486a-a0ed-901279c014d0",
+        "created_at": "2023-08-24T10:13:59.496Z",
+        "updated_at": "2023-08-24T10:14:24.891Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "421c30c2-6f25-41c2-8382-0d283084b24f",
+        "created_at": "2023-08-25T03:33:55.166Z",
+        "updated_at": "2023-08-24T21:09:40.367Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parking_space": [
+      {
+        "id": "23654d67-4fb9-4ff6-b206-3ce3211cda53",
+        "location": "Building A, Level 1",
+        "availability": false,
+        "price": 38708,
+        "created_at": "2023-08-25T01:32:57.900Z",
+        "updated_at": "2023-08-25T02:06:18.818Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7c7a3145-1fa5-43f1-8a65-1997a4d54c3f",
+        "location": "Building B, Basement",
+        "availability": false,
+        "price": 82925,
+        "created_at": "2023-08-25T09:06:37.955Z",
+        "updated_at": "2023-08-24T18:36:47.807Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "17f57582-a945-4b27-aad5-22281e22c5d5",
+        "location": "Building C, Level 3",
+        "availability": false,
+        "price": 59955,
+        "created_at": "2023-08-25T04:25:04.880Z",
+        "updated_at": "2023-08-25T07:38:13.342Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4effa2d7-40e3-45c0-a0f9-76f96de79fb3",
+        "location": "Building D, Ground Floor",
+        "availability": true,
+        "price": 11244,
+        "created_at": "2023-08-24T12:41:22.015Z",
+        "updated_at": "2023-08-25T00:58:36.775Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "36a58f08-d598-4ce5-9dfb-65e8d4fc546d",
+        "location": "Building E, Level 2",
+        "availability": true,
+        "price": 39267,
+        "created_at": "2023-08-24T21:38:52.010Z",
+        "updated_at": "2023-08-24T15:30:06.788Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "business_owner": [
+      {
+        "id": "00113a9c-2d9d-45d3-9f12-ef71679687ea",
+        "created_at": "2023-08-24T20:15:14.765Z",
+        "updated_at": "2023-08-24T10:13:57.856Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03710a8e-09b3-4a1a-a27e-27260015c814",
+        "created_at": "2023-08-24T19:20:12.889Z",
+        "updated_at": "2023-08-25T04:58:40.770Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c4620f2-bbc4-4b4c-b6b2-f72797981847",
+        "created_at": "2023-08-24T19:46:00.703Z",
+        "updated_at": "2023-08-24T22:06:48.261Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9384322d-7584-4831-a96a-1eea8ea64af6",
+        "created_at": "2023-08-24T17:39:35.051Z",
+        "updated_at": "2023-08-24T09:42:34.788Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a7b6b040-fd09-45ea-9fd6-1bf46d4ed6b2",
+        "created_at": "2023-08-25T02:13:14.827Z",
+        "updated_at": "2023-08-25T00:02:34.883Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "56a70ee7-bfcb-4d15-8186-7d59efea1963",
+        "start_time": "2023-08-25T00:37:45.610Z",
+        "end_time": "2023-08-24T21:52:15.360Z",
+        "created_at": "2023-08-24T23:24:31.467Z",
+        "updated_at": "2023-08-24T23:42:40.597Z",
+        "parking_space_id": "7c7a3145-1fa5-43f1-8a65-1997a4d54c3f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0126d242-c46f-45d7-a35b-cfcfbf345e25",
+        "start_time": "2023-08-24T17:23:20.174Z",
+        "end_time": "2023-08-24T19:35:44.021Z",
+        "created_at": "2023-08-24T22:04:35.697Z",
+        "updated_at": "2023-08-24T10:37:11.152Z",
+        "parking_space_id": "4effa2d7-40e3-45c0-a0f9-76f96de79fb3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d55aa76-71e7-4959-8bee-6bd6651267c8",
+        "start_time": "2023-08-25T08:03:45.961Z",
+        "end_time": "2023-08-24T17:55:59.201Z",
+        "created_at": "2023-08-25T00:29:51.257Z",
+        "updated_at": "2023-08-25T07:50:08.463Z",
+        "parking_space_id": "17f57582-a945-4b27-aad5-22281e22c5d5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de1e99f1-f7cd-4782-b972-27153c975c92",
+        "start_time": "2023-08-24T16:47:45.777Z",
+        "end_time": "2023-08-24T19:13:45.354Z",
+        "created_at": "2023-08-24T19:27:51.813Z",
+        "updated_at": "2023-08-25T05:47:09.477Z",
+        "parking_space_id": "4effa2d7-40e3-45c0-a0f9-76f96de79fb3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b031a328-7959-450b-9064-ad46836ac1a5",
+        "start_time": "2023-08-24T16:38:33.107Z",
+        "end_time": "2023-08-24T09:50:48.645Z",
+        "created_at": "2023-08-25T02:16:46.027Z",
+        "updated_at": "2023-08-24T21:39:47.918Z",
+        "parking_space_id": "7c7a3145-1fa5-43f1-8a65-1997a4d54c3f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3c91bd3c-08f9-4297-8447-dcd50c3a817d",
+        "email": "Vernie_Wiza@yahoo.com",
+        "firstName": "Ned",
+        "lastName": "Rolfson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1231.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9415c82a-837e-427a-ad0f-debf7e075b5c",
+        "email": "Kade_Olson-Klein46@hotmail.com",
+        "firstName": "Arnoldo",
+        "lastName": "Sipes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75869071",
+        "tenantId": null
+      },
+      {
+        "reference": "8f1efaf9-e4a0-4260-973b-6825c708fbde",
+        "email": "Hester.Green96@yahoo.com",
+        "firstName": "Deion",
+        "lastName": "Kling",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/287.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "81413542-d60c-4622-9b12-c562f53ef55e",
+        "email": "Tito.Sauer-Russel@hotmail.com",
+        "firstName": "Chelsea",
+        "lastName": "Hand",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/337.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4fbc3dcc-94a7-4576-a529-304bab1079aa",
+        "email": "Monty_Huels@hotmail.com",
+        "firstName": "Santino",
+        "lastName": "Labadie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95165273",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "afd52cc2-6f37-44fa-95f2-e53daca40f85",
+        "created_at": "2023-08-24T20:54:38.127Z",
+        "updated_at": "2023-08-24T10:12:22.323Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cfd72f8b-42ab-4b34-b9a6-bdeee58f0cf2",
+        "created_at": "2023-08-24T19:14:16.716Z",
+        "updated_at": "2023-08-25T06:07:43.425Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3a2b43d-6061-45c1-870e-0f7ffcb4c7af",
+        "created_at": "2023-08-24T09:54:23.769Z",
+        "updated_at": "2023-08-25T08:30:31.312Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62ea5978-321c-4408-9a30-0466ba7d8071",
+        "created_at": "2023-08-24T23:15:28.950Z",
+        "updated_at": "2023-08-24T23:46:42.184Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d55e447a-c9a1-4b16-b930-bf273d61a493",
+        "created_at": "2023-08-24T18:44:13.569Z",
+        "updated_at": "2023-08-24T18:24:39.202Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parking_space": [
+      {
+        "id": "710cb8a1-3054-49ce-8a3d-a95975db51bf",
+        "location": "Level 1",
+        "availability": false,
+        "price": 96152,
+        "created_at": "2023-08-24T20:27:39.374Z",
+        "updated_at": "2023-08-24T21:42:47.230Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d21cb19f-4eb1-4d78-89ab-5a0ac7532c79",
+        "location": "B2",
+        "availability": true,
+        "price": 59620,
+        "created_at": "2023-08-25T00:14:15.653Z",
+        "updated_at": "2023-08-24T23:13:40.164Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9608009a-304d-44cd-bde9-beda8c6a8c14",
+        "location": "P2",
+        "availability": true,
+        "price": 56358,
+        "created_at": "2023-08-25T02:53:01.226Z",
+        "updated_at": "2023-08-24T16:21:57.938Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8fd88557-abe9-46a8-b7dd-4f94c809a033",
+        "location": "Roof",
+        "availability": false,
+        "price": 72156,
+        "created_at": "2023-08-25T01:39:22.839Z",
+        "updated_at": "2023-08-24T14:38:33.024Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bed9a3e2-b2d9-4fd6-931a-32d60abdf8a8",
+        "location": "Visitor Area",
+        "availability": false,
+        "price": 74153,
+        "created_at": "2023-08-25T08:23:04.882Z",
+        "updated_at": "2023-08-24T21:29:21.644Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "business_owner": [
+      {
+        "id": "139566ed-7f33-4f24-be1d-b29c8319973f",
+        "created_at": "2023-08-25T05:05:10.208Z",
+        "updated_at": "2023-08-25T01:37:32.109Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b257580d-8bd9-4f87-9ebf-3d8e34160c95",
+        "created_at": "2023-08-24T14:55:43.749Z",
+        "updated_at": "2023-08-24T14:01:51.913Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "106b8658-2269-4799-bee3-8c97b826f68a",
+        "created_at": "2023-08-24T22:52:52.544Z",
+        "updated_at": "2023-08-25T02:04:02.587Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e388be3-eed0-4e76-9b67-d892eb4dd6ef",
+        "created_at": "2023-08-24T20:00:30.296Z",
+        "updated_at": "2023-08-24T21:51:17.653Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a69ac80-cbe1-4666-8767-1a0115a387c4",
+        "created_at": "2023-08-25T03:45:56.202Z",
+        "updated_at": "2023-08-24T11:48:51.182Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "2508b6e3-6c31-4d03-b3e0-f89ed84a82e2",
+        "start_time": "2023-08-25T02:17:09.758Z",
+        "end_time": "2023-08-24T17:28:52.616Z",
+        "created_at": "2023-08-25T06:20:23.473Z",
+        "updated_at": "2023-08-25T05:52:02.027Z",
+        "parking_space_id": "8fd88557-abe9-46a8-b7dd-4f94c809a033",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b0ccf00-130d-479b-87d8-e8ec0e9edc0e",
+        "start_time": "2023-08-24T22:00:29.166Z",
+        "end_time": "2023-08-25T06:15:17.240Z",
+        "created_at": "2023-08-24T14:38:11.925Z",
+        "updated_at": "2023-08-24T15:45:17.588Z",
+        "parking_space_id": "9608009a-304d-44cd-bde9-beda8c6a8c14",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a64b9ddf-c0d9-4659-b8a2-1f7019c3c6a0",
+        "start_time": "2023-08-25T06:59:20.475Z",
+        "end_time": "2023-08-24T11:00:47.563Z",
+        "created_at": "2023-08-24T14:15:54.054Z",
+        "updated_at": "2023-08-24T09:51:35.216Z",
+        "parking_space_id": "bed9a3e2-b2d9-4fd6-931a-32d60abdf8a8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8b46957-7039-4c05-9c7c-f558e8d15ee0",
+        "start_time": "2023-08-24T16:06:04.296Z",
+        "end_time": "2023-08-25T08:43:53.778Z",
+        "created_at": "2023-08-25T02:59:28.123Z",
+        "updated_at": "2023-08-24T23:00:19.739Z",
+        "parking_space_id": "bed9a3e2-b2d9-4fd6-931a-32d60abdf8a8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8cb7ac98-6c3e-47ed-8d51-e17fe8ff2d41",
+        "start_time": "2023-08-24T10:14:09.261Z",
+        "end_time": "2023-08-24T20:21:19.467Z",
+        "created_at": "2023-08-24T20:51:40.748Z",
+        "updated_at": "2023-08-24T23:11:25.835Z",
+        "parking_space_id": "bed9a3e2-b2d9-4fd6-931a-32d60abdf8a8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "60571f82-6c4e-4ea3-af63-093b90dc054a",
+        "email": "Helen_Morar@gmail.com",
+        "firstName": "Holly",
+        "lastName": "Fisher",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43901010",
+        "tenantId": null
+      },
+      {
+        "reference": "9e9b30fc-8643-454f-a991-74f7be010275",
+        "email": "Talia_Auer83@gmail.com",
+        "firstName": "Nora",
+        "lastName": "Prosacco",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/316.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8fc29107-38b5-44ae-ad18-597c23992a2e",
+        "email": "Clement.Kemmer@hotmail.com",
+        "firstName": "Selmer",
+        "lastName": "Tillman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29876641",
+        "tenantId": null
+      },
+      {
+        "reference": "bb3fd05a-8c73-4665-b96f-acef66a6c397",
+        "email": "Johnny_Considine-Hand93@yahoo.com",
+        "firstName": "Kristin",
+        "lastName": "Conn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20724419",
+        "tenantId": null
+      },
+      {
+        "reference": "6c4f3264-5cd7-468a-ae7b-4280bbc22572",
+        "email": "Aaliyah_Trantow@yahoo.com",
+        "firstName": "Enoch",
+        "lastName": "Ziemann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1017.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "5567b442-9f8b-401f-b828-c5a43eec0e27",
+        "created_at": "2023-08-25T09:15:44.269Z",
+        "updated_at": "2023-08-24T16:19:51.189Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a7233a7-f04c-495c-ac47-23489a14b30b",
+        "created_at": "2023-08-24T12:28:57.923Z",
+        "updated_at": "2023-08-25T01:19:31.481Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "296e5e44-fc6e-4746-a324-f5e769caf7f9",
+        "created_at": "2023-08-25T02:34:00.971Z",
+        "updated_at": "2023-08-24T23:23:52.954Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77ecdfe4-2a57-4012-8405-4cb642943e0d",
+        "created_at": "2023-08-24T16:22:45.855Z",
+        "updated_at": "2023-08-25T05:51:02.973Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5800aa6c-1086-4c35-8b32-168aa1bbf9df",
+        "created_at": "2023-08-24T10:43:20.246Z",
+        "updated_at": "2023-08-24T19:55:06.401Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parking_space": [
+      {
+        "id": "d7004c94-69ff-46b1-9a10-70c65a68169e",
+        "location": "Building A, Level 2",
+        "availability": true,
+        "price": 96961,
+        "created_at": "2023-08-24T19:14:12.277Z",
+        "updated_at": "2023-08-25T01:56:16.956Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dab151b4-dc77-4751-a55f-7dbd0d8ec146",
+        "location": "Parking Lot B, Zone C",
+        "availability": false,
+        "price": 56560,
+        "created_at": "2023-08-24T18:01:30.207Z",
+        "updated_at": "2023-08-24T12:43:26.820Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "02bc7c44-c18c-420e-bd92-b09cf806bad1",
+        "location": "Underground Garage, Level 1",
+        "availability": false,
+        "price": 17168,
+        "created_at": "2023-08-25T00:46:25.788Z",
+        "updated_at": "2023-08-24T13:31:55.461Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a45dd04e-c3ea-424f-96b8-3c8a956fc6c6",
+        "location": "Open Field, Area D",
+        "availability": false,
+        "price": 55810,
+        "created_at": "2023-08-25T07:09:48.653Z",
+        "updated_at": "2023-08-25T08:57:01.853Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8707a1ba-1a79-4e29-9a84-2aa37237477f",
+        "location": "Multi-level Car Park, Zone E",
+        "availability": true,
+        "price": 92727,
+        "created_at": "2023-08-24T13:08:58.281Z",
+        "updated_at": "2023-08-24T12:39:54.905Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "business_owner": [
+      {
+        "id": "5650d3ec-ffce-4597-bc57-97480ee5c852",
+        "created_at": "2023-08-24T23:26:58.145Z",
+        "updated_at": "2023-08-25T02:25:38.472Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db9abcca-77bb-4701-9ce5-6c928ff0418a",
+        "created_at": "2023-08-24T13:48:13.776Z",
+        "updated_at": "2023-08-24T21:52:52.841Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3385be10-6924-4cc8-b07f-aa200d9ba9f0",
+        "created_at": "2023-08-25T03:32:33.477Z",
+        "updated_at": "2023-08-24T09:39:12.757Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d047607-061c-49e7-a869-223287045914",
+        "created_at": "2023-08-25T04:52:58.098Z",
+        "updated_at": "2023-08-24T11:46:34.649Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eaf98d26-63ee-4082-b3be-27e67abf1674",
+        "created_at": "2023-08-24T10:34:02.170Z",
+        "updated_at": "2023-08-24T09:19:13.428Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "0607b9f8-ce48-4c7b-afe5-c83545141fdb",
+        "start_time": "2023-08-24T22:07:30.442Z",
+        "end_time": "2023-08-25T06:31:37.239Z",
+        "created_at": "2023-08-24T10:22:14.971Z",
+        "updated_at": "2023-08-24T23:50:41.961Z",
+        "parking_space_id": "a45dd04e-c3ea-424f-96b8-3c8a956fc6c6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "398f34ae-097d-4a40-9084-9e123ed3c398",
+        "start_time": "2023-08-24T13:56:17.495Z",
+        "end_time": "2023-08-24T16:58:42.919Z",
+        "created_at": "2023-08-24T19:10:30.762Z",
+        "updated_at": "2023-08-24T21:46:32.898Z",
+        "parking_space_id": "02bc7c44-c18c-420e-bd92-b09cf806bad1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "57a1b0df-c03c-401c-810f-c9878029086e",
+        "start_time": "2023-08-24T16:46:49.915Z",
+        "end_time": "2023-08-25T06:08:16.117Z",
+        "created_at": "2023-08-24T12:33:24.495Z",
+        "updated_at": "2023-08-24T22:55:41.420Z",
+        "parking_space_id": "02bc7c44-c18c-420e-bd92-b09cf806bad1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb70237b-ba9b-4d5f-bbb4-5ea510de5571",
+        "start_time": "2023-08-25T06:37:37.200Z",
+        "end_time": "2023-08-25T02:06:43.728Z",
+        "created_at": "2023-08-25T07:46:20.600Z",
+        "updated_at": "2023-08-24T23:46:09.440Z",
+        "parking_space_id": "d7004c94-69ff-46b1-9a10-70c65a68169e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7edf567d-974b-4134-8df9-92ebdbb09544",
+        "start_time": "2023-08-24T17:55:17.803Z",
+        "end_time": "2023-08-25T00:02:17.828Z",
+        "created_at": "2023-08-25T06:35:34.835Z",
+        "updated_at": "2023-08-24T19:39:20.159Z",
+        "parking_space_id": "8707a1ba-1a79-4e29-9a84-2aa37237477f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f32a1d93-de8d-49aa-9bf9-cb5474eb9d0d",
+        "email": "Precious.Toy64@yahoo.com",
+        "firstName": "Emiliano",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14587008",
+        "tenantId": null
+      },
+      {
+        "reference": "9bdcea88-0fd2-48a8-ab52-6291a414cca3",
+        "email": "Clement.Wisozk@hotmail.com",
+        "firstName": "Kasandra",
+        "lastName": "Deckow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99175933",
+        "tenantId": null
+      },
+      {
+        "reference": "9b4415b0-dc38-470d-9609-e72dd2a24739",
+        "email": "Gussie_Marquardt1@gmail.com",
+        "firstName": "Eugenia",
+        "lastName": "Batz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56263260",
+        "tenantId": null
+      },
+      {
+        "reference": "bc6c1361-4b07-4d4c-bd7b-6341a71ee74a",
+        "email": "Deontae_Walsh@gmail.com",
+        "firstName": "Thad",
+        "lastName": "Nicolas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6800676",
+        "tenantId": null
+      },
+      {
+        "reference": "02134cd1-dd7d-4f56-ab00-0a5cdde65f61",
+        "email": "Emelia_Hickle@yahoo.com",
+        "firstName": "Brennon",
+        "lastName": "Cassin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/740.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "870d55a2-7d42-4d17-9926-f253e5ea978a",
+        "created_at": "2023-08-25T03:48:43.918Z",
+        "updated_at": "2023-08-25T08:35:34.399Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "289fff9e-38fa-449d-baa9-455f93cd35ac",
+        "created_at": "2023-08-24T22:27:19.360Z",
+        "updated_at": "2023-08-25T04:56:57.982Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e1c0d77-d51c-4b2d-af79-60e73da4378a",
+        "created_at": "2023-08-25T05:13:34.242Z",
+        "updated_at": "2023-08-24T22:38:14.331Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c5ce8b56-1340-4efa-b9ff-cae0641ef16f",
+        "created_at": "2023-08-25T03:13:42.785Z",
+        "updated_at": "2023-08-25T04:01:23.949Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c74f8e36-cf52-46fc-ad2a-17153347b8ca",
+        "created_at": "2023-08-24T14:40:41.145Z",
+        "updated_at": "2023-08-24T20:35:02.148Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parking_space": [
+      {
+        "id": "0e9a3750-a488-450b-b0e9-bcc6215dc448",
+        "location": "Parking Lot A",
+        "availability": true,
+        "price": 58528,
+        "created_at": "2023-08-24T19:13:19.795Z",
+        "updated_at": "2023-08-24T16:20:33.796Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ac183e50-c8b7-4a8f-9ad1-34c7928e8c49",
+        "location": "Underground Garage B",
+        "availability": false,
+        "price": 56905,
+        "created_at": "2023-08-24T12:58:15.278Z",
+        "updated_at": "2023-08-24T17:03:08.058Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a568021b-75a2-4cc5-b021-ae5615a339ed",
+        "location": "Street Parking C",
+        "availability": true,
+        "price": 52851,
+        "created_at": "2023-08-25T07:59:15.205Z",
+        "updated_at": "2023-08-24T16:24:28.068Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8a519f53-9405-4f86-a738-bfe8b9dbd83d",
+        "location": "Multi-level Parking D",
+        "availability": false,
+        "price": 31578,
+        "created_at": "2023-08-24T21:42:21.272Z",
+        "updated_at": "2023-08-24T09:31:16.474Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7f7565e5-fe70-41cb-a6b8-7663a30be8c1",
+        "location": "Open Field Parking E",
+        "availability": true,
+        "price": 25208,
+        "created_at": "2023-08-24T10:25:55.563Z",
+        "updated_at": "2023-08-25T01:44:07.228Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "business_owner": [
+      {
+        "id": "225feeff-cd85-4c9a-81ee-5bc7b2101580",
+        "created_at": "2023-08-25T04:57:51.779Z",
+        "updated_at": "2023-08-24T16:47:24.656Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91e8aed5-c19a-4f23-bb39-fb92c9e9e7ca",
+        "created_at": "2023-08-24T13:31:03.180Z",
+        "updated_at": "2023-08-24T17:09:44.667Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e874aee-81e2-473b-8dc5-00db15a4de02",
+        "created_at": "2023-08-24T12:26:12.259Z",
+        "updated_at": "2023-08-24T19:18:55.987Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9440e41-be0c-4a46-9379-c0d0114a9e42",
+        "created_at": "2023-08-24T15:00:27.656Z",
+        "updated_at": "2023-08-25T00:51:25.780Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d5824c1-7dfd-4243-957f-b86c1ef30760",
+        "created_at": "2023-08-24T12:50:49.944Z",
+        "updated_at": "2023-08-24T23:07:36.727Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "8161dbff-6769-4f5b-a956-de88df1456fb",
+        "start_time": "2023-08-25T00:03:34.220Z",
+        "end_time": "2023-08-24T13:29:15.038Z",
+        "created_at": "2023-08-24T14:01:11.362Z",
+        "updated_at": "2023-08-25T04:22:33.133Z",
+        "parking_space_id": "ac183e50-c8b7-4a8f-9ad1-34c7928e8c49",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4776b1bb-b7b5-46ce-abb9-3edd6c4a4b50",
+        "start_time": "2023-08-24T13:44:49.959Z",
+        "end_time": "2023-08-24T12:02:02.231Z",
+        "created_at": "2023-08-24T09:32:33.271Z",
+        "updated_at": "2023-08-25T01:22:47.592Z",
+        "parking_space_id": "7f7565e5-fe70-41cb-a6b8-7663a30be8c1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "facec73b-db62-4cce-af35-6e8925bbd7fc",
+        "start_time": "2023-08-24T17:54:51.375Z",
+        "end_time": "2023-08-25T04:30:03.641Z",
+        "created_at": "2023-08-25T03:07:31.693Z",
+        "updated_at": "2023-08-24T12:19:18.674Z",
+        "parking_space_id": "8a519f53-9405-4f86-a738-bfe8b9dbd83d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9bb460f9-c963-4a15-bc70-03df919f5231",
+        "start_time": "2023-08-24T21:54:54.782Z",
+        "end_time": "2023-08-25T00:39:36.376Z",
+        "created_at": "2023-08-24T15:32:40.216Z",
+        "updated_at": "2023-08-24T16:37:12.457Z",
+        "parking_space_id": "8a519f53-9405-4f86-a738-bfe8b9dbd83d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41b1a548-32bb-4b15-a7fc-373c62ed6698",
+        "start_time": "2023-08-24T10:17:34.086Z",
+        "end_time": "2023-08-25T01:47:01.772Z",
+        "created_at": "2023-08-24T14:33:04.768Z",
+        "updated_at": "2023-08-24T23:17:49.240Z",
+        "parking_space_id": "7f7565e5-fe70-41cb-a6b8-7663a30be8c1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0a04c026-2e2e-4c06-ab8d-136ac535db9d",
+        "email": "Shanny.Mraz51@gmail.com",
+        "firstName": "Ernestine",
+        "lastName": "Windler-Parisian",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/560.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f621b05b-e47e-4f5f-b627-20e8701aa2e4",
+        "email": "Jamil97@hotmail.com",
+        "firstName": "Ralph",
+        "lastName": "Donnelly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59561209",
+        "tenantId": null
+      },
+      {
+        "reference": "c658111b-147b-4661-9027-d8cdd342da42",
+        "email": "Dolores.Murazik@gmail.com",
+        "firstName": "Westley",
+        "lastName": "Jenkins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1173.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "16739e20-628e-453d-838d-993c93f65e5c",
+        "email": "Zena_Schaden@yahoo.com",
+        "firstName": "Neha",
+        "lastName": "Bartell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/83.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7338ab2b-4417-4fa5-94a0-5efbf38d13fd",
+        "email": "Brett_Prohaska@hotmail.com",
+        "firstName": "Zane",
+        "lastName": "Bins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1232.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
